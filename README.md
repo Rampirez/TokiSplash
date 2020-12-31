@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# This is a meant to be used as a Wallpaper in Wallpaper Engine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was started on behalf of @tokiGasai on Twitter/Twitch.
 
 ## Available Scripts
 

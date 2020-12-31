@@ -1,0 +1,118 @@
+:root {
+    background: #151515;
+    
+  }
+  
+  #logo1 {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+    
+    animation-name: boot-up;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+  }
+  
+  @keyframes boot-up {
+    0% {
+      opacity: 0;
+    }
+    
+    20% {
+      opacity: 1;
+    }
+    
+    80% {
+      opacity: 1;
+    }
+    
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  
+  #welcomeMessage {
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-align: center;
+    font-size: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+    animation-name: start;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-delay: 6s;
+  }
+  
+  
+  @keyframes start {
+    0% {
+      opacity: 0;
+    }
+    
+    15% {
+      opacity: 1;
+    }
+    
+    85% {
+      opacity: 1;
+    }
+    
+    100% {
+      opacity: 0;
+    }
+  }
+
+  #firstIcon {
+    text-align: center;
+    font-size: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+    animation-name: firstIcon;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes firstIcon {
+    0% {
+      opacity: 0;
+    }
+    
+    25% {
+      opacity: 0.25;
+    }
+    
+    50% {
+      opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+      }
+    
+    100% {
+      opacity: 1;
+    }
+  }
